@@ -25,7 +25,7 @@ class JobController extends Controller
      */
     public function __construct(JobRepository $jobs)
     {
-        $this->$jobs = $jobs;
+        $this->jobs = $jobs;
     }
 
     /**
